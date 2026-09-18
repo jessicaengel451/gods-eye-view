@@ -18,6 +18,25 @@ import { unavailablePlaceSearch } from './search/placeSearch.js';
  *   buildingHeight — estimated height of landmark center above ground (meters)
  */
 export const CITY_POIS = {
+  adamsCountyFairgrounds: {
+    name: 'Adams County Fairgrounds',
+    groundElevation: 1520, // Brighton, CO sits at ~1560m MSL
+    viewBounds: {
+      southwest: { lat: 39.89, lng: -104.93 },
+      northeast: { lat: 39.97, lng: -104.82 },
+    },
+    pois: [
+      {
+        name: 'Adams County Fairgrounds',
+        lat: 39.9282863,
+        lon: -104.8753396,
+        alt: 550,
+        pitch: -30,
+        heading: 0,
+        buildingHeight: 12,
+      },
+    ],
+  },
   austin: {
     name: 'Austin',
     groundElevation: 150, // meters above WGS84 ellipsoid

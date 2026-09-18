@@ -1248,6 +1248,7 @@
       "src/bloom.js",
       "src/camera.js",
       "src/cameraVerbs.js",
+      "src/gamepadCamera.js",
       "src/cctvFocusPolicy.js",
       "src/cctvFocusRequest.js",
       "src/celestialRing.js",
