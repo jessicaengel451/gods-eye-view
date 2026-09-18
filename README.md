@@ -4,6 +4,8 @@
 
 [![CI](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml)
 
+# Added Xbox controller support. No setup required. Just connect the controller and go. May work with other controllers as well. I also pinned the location I was doing this activity at. You can have AI remove that pin and just take the additional Xbox controller support to your own fork.
+
 ### A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.
 
 Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Hands-free voice control powered by a realtime AI agent.
