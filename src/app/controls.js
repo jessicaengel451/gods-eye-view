@@ -2,6 +2,7 @@ import { catalogControlServices } from './catalog.js';
 import { StyleManager } from '../ui/composition.js';
 import { flyToAustin } from '../camera.js';
 import { initCockpitCloudEffects } from '../cockpitCloudEffects.js';
+import { initGamepadCamera } from '../gamepadCamera.js';
 
 /** Construct the existing controls and camera presentation. */
 export function createApplicationControls({
@@ -38,6 +39,7 @@ export function createApplicationControls({
     weatherService: operations.requests.weather,
   });
   defer(() => cockpitCloudEffects?.destroy());
+  defer(initGamepadCamera(viewer));
 
   // If no share link state, do default fly-to Austin
   if (!styleManager.hasShareState) {
